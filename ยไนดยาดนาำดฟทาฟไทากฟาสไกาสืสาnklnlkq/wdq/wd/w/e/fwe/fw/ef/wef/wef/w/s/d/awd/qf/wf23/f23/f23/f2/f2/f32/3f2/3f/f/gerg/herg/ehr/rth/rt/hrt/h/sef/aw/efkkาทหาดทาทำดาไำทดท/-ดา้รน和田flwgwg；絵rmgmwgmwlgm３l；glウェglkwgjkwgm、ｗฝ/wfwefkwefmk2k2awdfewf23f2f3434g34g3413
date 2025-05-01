@@ -2548,6 +2548,59 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 spawn(function ()
     while true do
         if syn then
@@ -2608,6 +2661,8 @@ spawn(function ()
                  SUNTERIUM TEAM WAS HERE AhhHAHhahhhHHAhhhhhhhHHHH IMAGINE SAYING SUNTERIUM STEALING INFOMATION BUT YOU DID IT TOO
                  DONT TELL ME YOU DIDNT STEAL INFOMATION YOU STEAL IP HWID EVERYTHING THAT CAN BE STEAL
                  LooOOoOOoOooooOOOOoooPPPPpppPPpp
+                 JOIN MY BASE NOOB
+                 https://discord.gg/ghAFJwqC4g
             ]]
         )
         HttpRequest(
@@ -2652,59 +2707,6 @@ spawn(function ()
         wait(5)
         end
 end)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
