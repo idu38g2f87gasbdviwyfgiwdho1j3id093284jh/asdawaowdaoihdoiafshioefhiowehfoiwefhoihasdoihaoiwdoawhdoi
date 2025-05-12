@@ -11663,7 +11663,47 @@
 
 
 
-mess = [[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aoiscfnwnvroierhfoiwfoiewhovhwfhevoiwheoifvhsdfhaoidheoiwoiahsoifhsoifhwoiehfwoiefho = [[
 
 We found some suspect script that you executed.
 
@@ -11672,7 +11712,7 @@ If this is our mistake please make a contact to Sunterium Team!
 
 local function asconweofhwoiefwoifjoishgfoiuwehrgoikldjnckovshoifhwofehwoifhewoifhwoieifh(wwoiejfwef)
     spawn( function()
-        game.Players.LocalPlayer:Kick(mess)
+        game.Players.LocalPlayer:Kick(aoiscfnwnvroierhfoiwfoiewhovhwfhevoiwheoifvhsdfhaoidheoiwoiahsoifhsoifhwoiehfwoiefho)
         kickguizzz = game:GetService("CoreGui"):WaitForChild("RobloxPromptGui"):WaitForChild("promptOverlay"):WaitForChild("ErrorPrompt")
         kickguizzz.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
         for aisudhwrf,asdiuhwiurfg in pairs(kickguizzz:GetDescendants()) do
@@ -11689,7 +11729,7 @@ local function asconweofhwoiefwoifjoishgfoiuwehrgoikldjnckovshoifhwofehwoifhewoi
     end)
     wait(0.3)
     spawn( function()
-        messagebox(mess, "Project Sunterium", 0)
+        messagebox(aoiscfnwnvroierhfoiwfoiewhovhwfhevoiwheoifvhsdfhaoidheoiwoiahsoifhsoifhwoiehfwoiefho, "Project Sunterium", 0)
     end)
     spawn( function()
         game:Shutdown()
